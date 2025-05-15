@@ -231,113 +231,139 @@ html {
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
-    body {
-        padding-top: 20px;
-    }
+  body {
+    padding-top: 20px;
+  }
 
-    .navbar {
+  .navbar {
         padding: 10px 20px;
-    }
+  }
 
-    #logo {
-        font-size: 1.5rem;
-    }
+  #logo {
+    font-size: 1.5rem;
+  }
 
-    .nav-links a {
-        font-size: 18px;
-    }
+  .nav-links a {
+    font-size: 18px;
+  }
 
     /* Section styles */
-    .home, .content, .education, .training, .projects, .jobexp, .profile {
-        margin: 20px 20px;
-        padding: 30px;
-        max-width: 100%;
-    }
+  .home, .content, .education, .training, .projects, .jobexp, .profile {
+    margin: 20px 20px;
+    padding: 30px;
+    max-width: 100%;
+  }
 
-    .home h1, .content h1, .education h1, .training h1, .projects h1, .jobexp h1, .profile h1 {
-        font-size: 40px;
-    }
+  .home h1, .content h1, .education h1, .training h1, .projects h1, .jobexp h1, .profile h1 {
+    font-size: 40px;
+  }
 
-    .home h2, .content h2, .education h2, .training h2, .projects h2, .jobexp h2, .profile h2 {
-        font-size: 28px;
-    }
+.home h2, .content h2, .education h2, .training h2, .projects h2, .jobexp h2, .profile h2 {
+    font-size: 28px;
+  }
 
-    .home p, .content p, .education p, .training p, .projects p, .jobexp p, .profile p {
-        font-size: 16px;
-        text-align: left;
-        padding: 10px;
-    }
+  .home p, .content p, .education p, .training p, .projects p, .jobexp p, .profile p {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+  }
 
-    /* Image Styles */
-    .profileimg img, .educationimg img, .projectsimg img, .jobexpimg img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
+  /* Image Styles */
+  .profileimg img, .educationimg img, .projectsimg img, .jobexpimg img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
     .homeimg img {
-        width: 250;
-        height: 300;
-        margin-bottom: 20px;
-    }
+    width: 250;
+    height: 300;
+    margin-bottom: 20px;
+  }
 
-    .profileimg img {
-        width: 250px;
-        height: auto;
-        margin: 20px;
-    }
+  .profileimg img {
+    width: 250px;
+    height: auto;
+    margin: 20px;
+  }
 
 
-    .jobexpimg {
-        display: flex;
-        justify-content: center;
-    }
+  .jobexpimg {
+    display: flex;
+    justify-content: center;
+  }
 
-    .jobexpimg img {
-        
-        margin: 0px px;
-        width: 140px;
-        height: 140px;
-    }
+    .jobexpimg img {  
+    margin: 0px px;
+    width: 140px;
+    height: 140px;
+  }
 
-    /* Contact Window */
-    .contact-window {
-        padding: 15px;
-        width: 100%;
-        max-width: 400px;
-    }
+  /* Contact Window */
+  .contact-window {
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+  }
 
-    /* Hover effects */
-    .jobexpimg img:hover {
-        transform: scale(1.2);
-        transition: all 0.3s ease;
-    }
+  /* Hover effects */
+  .jobexpimg img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
 }
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
-    .educationslides, .projectsslides {
-        align-items: center;
-    }
+  .educationslides, .projectsslides {
+    align-items: center;
+  }
 
     /* Carousel Styles */
     .educationslides img, .projectsslides img {
-        margin-left: 0px;
-        margin-right: 300px;
-        width: 100%;
+    margin-left: 0px;
+    margin-right: 300px;
+    width: 100%;
+  }
+
+  .educationcarousel, .projectscarousel {
+    max-width: 300px;
+    max-height: 600px;
+
+  }
+
+  .educslide, .projslide {
+    width: 100%;
+  }
+
+  .educationprev, .educationnext, .projectsprev, .projectsnext {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 430px) {
+    .navbar {
+        padding: 5px 10px;
     }
 
-    .educationcarousel, .projectscarousel {
-        max-width: 300px;
-        max-height: 600px;
-
+    #logo {
+        font-size: .55rem;
     }
 
-    .educslide, .projslide {
-        width: 100%;
+    .nav-links a {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar {
+        padding: 5px 10px;
     }
 
-    .educationprev, .educationnext, .projectsprev, .projectsnext {
-        padding: 8px;
-        font-size: 16px;
+    #logo {
+        font-size: .35rem;
+    }
+
+    .nav-links a {
+        font-size: 9px;
     }
 }
