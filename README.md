@@ -37,4 +37,4 @@ Element: hamburger
 
 Element: navLinks
 
-Interaction: Clicking the hamburger toggles visibility of the nav links (mobile menu).
+Interaction: Clicking the hamburger toggles visibility of the nav links (mobile menu or 1000px Below).
