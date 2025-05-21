@@ -2,7 +2,7 @@ let currentSlideEducation = 0;
 let currentSlideProjects = 0;
 const slideWidth = 600;
 
-// Function to move to the next or previous slide for Education
+// Function to move to the next or previous slide for Carousel
 function moveSlideEducation(direction) {
     const slides = document.querySelector(".educationslides");
     const totalSlides = slides.children.length;
@@ -50,9 +50,11 @@ closeContactWindowBtn.onclick = function() {
     setTimeout(() => contactWindow.style.display = "none", 300);
 }
 
-window.onclick = function(event) {
-    if (event.target === contactWindow) {
-        contactWindow.style.transform = "translateY(100%)";
-        setTimeout(() => contactWindow.style.display = "none", 300);
-    }
-}
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+  
+    hamburger.addEventListener('click', function () {
+      navLinks.classList.toggle('active');
+    });
+  });
