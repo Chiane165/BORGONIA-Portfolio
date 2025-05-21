@@ -11,7 +11,7 @@ Function: moveSlideEducation(direction)
 
 Interaction: Clicking next/previous buttons to move education slides.
 
-3. Projects Carousel
+2. Projects Carousel
    
 Variables: currentSlideProjects, slideWidth
 
@@ -19,7 +19,7 @@ Function: moveSlideProjects(direction)
 
 Interaction: Clicking next/previous buttons to move project slides.
 
-4. Contact Window
+3. Contact Window
 
 Element: contactWindow
 
